@@ -1,0 +1,32 @@
+h1{
+    color: blue;
+    font-size: 40px;
+}
+p{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+h2{
+    color: red;
+    font-size: 30px;
+
+}
+
+.project-card{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 19px;
+}
+
+a{
+    display: inline-block;
+    padding: 10px 16px;
+}
