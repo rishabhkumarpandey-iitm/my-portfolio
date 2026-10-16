@@ -4,47 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--This is my page title.-->
-    <title>Rishabh Pabdey | Portfolio</title>
+    <title>Rishabh Pandey | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>Home | About Me | Skills | Education | Projects | Experience | Certifications | Contact</nav>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
     <!--This is my main heading-->
-    <header>
+
+    <header id="home">
         <h1>Rishabh Pandey</h1> 
         <p>Aspiring Software Engineer | Data Science & AI</p>
         <a href="https://github.com/rishabhkumarpandey-iitm" target="_blank">My GitHub</a>
 
     </header>
     
-    <section>
+    
+    <section id="about">
         <h2>About Me</h2>
         <p>I'm an aspiring Software Engineer with a strong intrest in Data Science and AI, currently persuing BS in Data Science and Applications from IIT Madras. I'm passionate about learning by building real-world projects, strengthening my technical skills, and continuously growing throgh challenges.</p>
     </section>
-    <section>
+    <section id="skills">
         <h2>Skills</h2>
-        <section>
-            <h3>Programming</h3>
-            <ul>
-                <li>Python</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-            <h3>Data Science</h3>
-            <ul>
-                <li>Python for Data Science</li>
-                <li>Mathematics & Statistics</li>
-            </ul>
-            <h3>Tools & Technologies</h3>
-            <ul>
-                <li>VS Code</li>
-                <li>Git</li>
-                <li>GitHub</li>
-            </ul>
-        </section>
-        
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Programming</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Data Science</h3>
+                <ul>
+                    <li>Python for Data Science</li>
+                    <li>Mathematics & Statistics</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Data Science</h3>
+                <ul>
+                    <li>Python for Data Science</li>
+                    <li>Mathematics & Statistics</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>VS Code</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>  
+        </div>    
     </section>
-    <section>
+    
+    <section id="education">
         <h2>Education</h2>
         <h3>IIT Madras</h3>
         <p> BS in Data Science and Applications</p>
@@ -62,7 +88,7 @@
 
         </ul>
     </section>
-    <section>
+    <section id="projects">
         <h2>Projects</h2>
         <div class="project-card">
             <h3>Personal Portfolio Website</h3>
@@ -74,7 +100,7 @@
         </div>
     </section>
     
-    <section>
+    <section id="contact">
         <h2>Contact</h2>
         <h3>Get in Touch</h3>
         <a href="https://www.linkedin.com/in/rishabh-pandey-3a7a76426/" target="_blank">LinkedIn</a>
