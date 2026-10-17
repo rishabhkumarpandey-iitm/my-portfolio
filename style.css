@@ -1,7 +1,7 @@
 header {
     background-color: #eaf2ff;
     text-align: center;
-    padding: 64px 20px;
+    padding: 48px 20px;
 }
 
 header h1 {
@@ -28,7 +28,13 @@ header a:hover{
     text-decoration: none;
 }
 
-
+.profile-photo{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
 
 body{
     background-color: #f8fafc;
@@ -139,7 +145,7 @@ nav a:hover {
     font-size: 22px;
     margin-bottom: 6px;
 }
-#eduction ul{
+#education ul{
     padding-left: 24px;
 }
 
@@ -199,4 +205,12 @@ footer{
     text-align: center;
     padding: 20px;
     font-size: 14px;
+}
+
+
+#skills,
+#projects{
+    max-width: 948px;
+    margin: 0 auto;
+    padding: 40px 24px;
 }
